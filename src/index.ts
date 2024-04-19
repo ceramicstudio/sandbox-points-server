@@ -4,9 +4,10 @@ import multiRouter from './routes/multi.js'
 
 const app = express()
 const port = process.env.PORT || 8080
+const testOrigin = process.env.TEST_ORIGIN || ''
 
 const corsOptions = {
-  origin: ['http://localhost:3000'],
+  origin: [testOrigin, 'https://developers.ceramic.network'],
   optionsSuccessStatus: 200, // For legacy browser support
 }
 
