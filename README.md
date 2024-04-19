@@ -57,7 +57,7 @@ To get up and running and start experimenting with this server:
 1. Install the monorepo dependencies from the root of the /solutions directory:
 
 ```bash
-yarn install
+npm install
 ```
 
 2. From within the /solutions/demo/server directory, create your .env file using the instructions from the "process" section above (as well as the node instructions). You can copy over the default values 1:1 (for testing purposes only) from .env.example
@@ -65,7 +65,7 @@ yarn install
 3. Run the server in developer mode:
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 ## License
