@@ -57,11 +57,11 @@
   },
   "dependencies": {
     "@ceramicnetwork/http-client": "^5.7.0",
-    "body-parser": "^1.20.2",
+    "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "exec": "^0.2.1",
-    "express": "^4.18.2",
+    "express": "^4.21.0",
     "tsx": "^4.7.1"
   },
   "jest": {
